@@ -4,7 +4,7 @@ autoUpdate:
 bootConfigURL: https://github.com/jstrachan/jenkins-x-boot-config
 cluster:
   azure: {}
-  chartRepository: http://bucketrepo/bucketrepo/
+  chartRepository: http://bucketrepo/bucketrepo/charts/
   clusterName: jstrachan-cb2
   environmentGitOwner: jstrachan
   gitKind: github
@@ -70,6 +70,6 @@ storage:
 vault: {}
 velero: {}
 versionStream:
-  ref: master
+  ref: v1.0.180
   url: https://github.com/jenkins-x/jenkins-x-versions.git
 webhook: lighthouse
