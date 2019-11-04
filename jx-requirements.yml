@@ -1,10 +1,8 @@
 autoUpdate:
   enabled: false
   schedule: ""
-bootConfigURL: https://github.com/jstrachan/jenkins-x-boot-config
 cluster:
   azure: {}
-  chartRepository: http://bucketrepo/bucketrepo/charts/
   clusterName: jstrachan-cb2
   environmentGitOwner: jstrachan
   gitKind: github
